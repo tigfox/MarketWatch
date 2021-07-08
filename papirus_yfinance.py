@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
 import yfinance as yf
-import config
-import requests
 try:
     from papirus import PapirusTextPos
     display = True
