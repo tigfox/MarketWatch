@@ -23,7 +23,7 @@ def write_display(tickers):
     for ticker in tickers:
         text.AddText(ticker['name'] + ": " + str(ticker['price']), 10, pos)
         pos = pos + 25
-    text.WriteAll()    
+    text.WriteAll()
 
 if __name__ == "__main__":
     for ticker in tickers:
